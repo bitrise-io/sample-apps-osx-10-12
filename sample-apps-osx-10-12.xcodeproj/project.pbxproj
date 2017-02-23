@@ -412,6 +412,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "sample-apps-osx-10-12/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-osx-10-12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +425,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "sample-apps-osx-10-12/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tamaspapik.sample-apps-osx-10-12";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +500,7 @@
 				2DBE29611E5D99740021F400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBE29621E5D99740021F400 /* Build configuration list for PBXNativeTarget "sample-apps-osx-10-12Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +509,7 @@
 				2DBE29641E5D99740021F400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DBE29651E5D99740021F400 /* Build configuration list for PBXNativeTarget "sample-apps-osx-10-12UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				2DBE29671E5D99740021F400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
